@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=0, maximum-scale=1" /> -->
+    <title>First UI Component Library</title>
+    <link href="./components.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+        <div class="nav-bar" >
+            <div class="logo">
+                <p style="color: white;">First UI Component Library</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="grid-columns">
+                <div class="grid-item vertical-menu" >
+                    <div class="menu-list">
+                        <ul style="list-style-type: none;">
+                           <a href="#avatars"> <li class="list-items">Avatar</li></a>
+                           <a href="#alerts"> <li class="list-items">Alert Messages</li></a>
+                           <a href="#buttons"> <li class="list-items">Buttons</li></a>
+                            <a href="#lists"><li class="list-items">Cards</li></a>
+                           <a href="#images"> <li class="list-items">Images</li></a>
+                            <a href="#input"><li class="list-items">Input Element</li></a>
+                           <a href="#lists"> <li class="list-items">Lists</li></a>
+                           <a href="#navigation"><li class="list-items">Navigation</li></a>
+                           <a href="#modal"> <li class="list-items">Modal</li></a>
+                           <a href="#ratings"> <li class="list-items">Ratings</li></a>
+                           <a href="#grids"> <li class="list-items">Simplified Grid</li></a>
+                           <a href="text-utilities"> <li class="list-items">Text Utilities</li></a>
+                           <a href="#toast"> <li class="list-items">Toast/Snackbar</li></a>
+                        </ul>
+                    </div>
+                </div>               
+                <div class="grid-item main-content">  
+                    <p style="text-align: center;font-size:3rem;font-weight: bolder;">Welcome to First UI Component Library</p>
+                    <div class="import-guide section">
+                        <h3> Import this library in HTML File </h3>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            HERE WILL BE LINK OF COMPONENT CSS
+                        </div>
+                    </div>
+                    <div class="avatar section">
+                        <h1 id="avatars">Avatars</h1>
+                        <p class="description">An avatar is a picture that placed on your social media profile, role-playing game or blog to tell people who you're. Avatars are used widely on websites and in online role-playing games. It's the best way for other people to identify you, just like an ID card on the internet.</p>
+                        <img src="//assets.myntassets.com/dpr_1.5,q_60,w_200,c_limit,fl_progressive/assets/images/retaillabs/2021/3/17/b0f72a3d-6148-48a0-af36-584a59aee2521615999643173-SS21-TopNav-Beauty.jpg" class="first-ui-avatar-smaller">
+                        <img src="//assets.myntassets.com/dpr_1.5,q_60,w_200,c_limit,fl_progressive/assets/images/retaillabs/2021/3/17/b0f72a3d-6148-48a0-af36-584a59aee2521615999643173-SS21-TopNav-Beauty.jpg" class="first-ui-avatar-small">
+                        <img src="//assets.myntassets.com/dpr_1.5,q_60,w_200,c_limit,fl_progressive/assets/images/retaillabs/2021/3/17/b0f72a3d-6148-48a0-af36-584a59aee2521615999643173-SS21-TopNav-Beauty.jpg" class="first-ui-avatar-medium">
+                        <img src="//assets.myntassets.com/dpr_1.5,q_60,w_200,c_limit,fl_progressive/assets/images/retaillabs/2021/3/17/b0f72a3d-6148-48a0-af36-584a59aee2521615999643173-SS21-TopNav-Beauty.jpg" class="first-ui-avatar-large">
+                        <img src="//assets.myntassets.com/dpr_1.5,q_60,w_200,c_limit,fl_progressive/assets/images/retaillabs/2021/3/17/b0f72a3d-6148-48a0-af36-584a59aee2521615999643173-SS21-TopNav-Beauty.jpg" class="first-ui-avatar-larger">
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;img src="//assets.myntassets.com/dpr_1.5,q_60,w_200,c_limit,fl_progressive/assets/images/retaillabs/2021/3/17/b0f72a3d-6148-48a0-af36-584a59aee2521615999643173-SS21-TopNav-Beauty.jpg" class="first-ui-avatar-smaller">
+                        </div>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;img src="//assets.myntassets.com/dpr_1.5,q_60,w_200,c_limit,fl_progressive/assets/images/retaillabs/2021/3/17/b0f72a3d-6148-48a0-af36-584a59aee2521615999643173-SS21-TopNav-Beauty.jpg" class="first-ui-avatar-small">
+                        </div>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;img src="//assets.myntassets.com/dpr_1.5,q_60,w_200,c_limit,fl_progressive/assets/images/retaillabs/2021/3/17/b0f72a3d-6148-48a0-af36-584a59aee2521615999643173-SS21-TopNav-Beauty.jpg" class="first-ui-avatar-medium">
+                        </div>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;img src="//assets.myntassets.com/dpr_1.5,q_60,w_200,c_limit,fl_progressive/assets/images/retaillabs/2021/3/17/b0f72a3d-6148-48a0-af36-584a59aee2521615999643173-SS21-TopNav-Beauty.jpg" class="first-ui-avatar-large">
+                        </div>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;img src="//assets.myntassets.com/dpr_1.5,q_60,w_200,c_limit,fl_progressive/assets/images/retaillabs/2021/3/17/b0f72a3d-6148-48a0-af36-584a59aee2521615999643173-SS21-TopNav-Beauty.jpg" class="first-ui-avatar-larger">
+                        </div>
+                    </div>
+
+                    <div class="alert-msg section">
+                        <h1 id="alerts"> Alert Messages </h1>
+                        <p class="description">An alert displays a short, important message in a way that attracts the user's attention without interrupting the user's task.</p>
+                        <div class="first-ui-alert danger">
+                            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+                            <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+                        </div>
+                        <div class="first-ui-alert warning">
+                            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+                            <strong>Warning!</strong>  Indicates a warning that might need attention.
+                        </div>
+                        <div class="first-ui-alert success">
+                            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+                            <strong>Success!</strong>  Any successful action done by user.
+                        </div>
+                        <br/>
+                        <div>
+                            <strong>NOTE :- Remove space between "&" and "times" after pasting below code. </strong>
+                        </div>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;div class="first-ui-alert danger"> <br>
+                                &lt;span class="closebtn" onclick="this.parentElement.style.display='none';">& times;&lt;/span> <br>
+                                &lt;strong>Danger!&lt;/strong> Indicates a dangerous or potentially negative action.
+                                &lt;/div>
+                        </div>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;div class="first-ui-alert warning"> <br>
+                                &lt;span class="closebtn" onclick="this.parentElement.style.display='none';">& times;&lt;/span> <br>
+                                &lt;strong>Warning!&lt;/strong> Indicates a warning that might need attention.
+                                &lt;/div>
+                        </div>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;div class="first-ui-alert success"> <br>
+                                &lt;span class="closebtn" onclick="this.parentElement.style.display='none';">& times;&lt;/span> <br>
+                                &lt;strong>Success!&lt;/strong> Any successful action done by user.
+                                &lt;/div>
+                        </div>
+                    </div>
+                    <div class="buttons section">
+                        <h1 id="buttons">Buttons</h1>
+                        <p class="description">The HTML button element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.</p>
+                        <h3>Primary Buttons</h3>
+                        <button type="button" class="first-ui-btn">Basic</button>
+                        <button type="button" class="btn first-ui-btn-primary">Primary</button>
+                        <button type="button" class="btn first-ui-btn-success">Success</button>
+                        <button type="button" class="btn first-ui-btn-info">Info</button>
+                        <button type="button" class="btn first-ui-btn-warning">Warning</button>
+                        <button type="button" class="btn first-ui-btn-danger">Danger</button>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;button type="button" class="first-ui-btn">Basic&lt;/button>
+                        </div>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;button type="button" class="first-ui-btn-primary">Basic&lt;/button>
+                        </div>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;button type="button" class="first-ui-btn-success">Basic&lt;/button>
+                        </div>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;button type="button" class="first-ui-btn-info">Basic&lt;/button>
+                        </div>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;button type="button" class="first-ui-btn-warning">Basic&lt;/button>
+                        </div>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;button type="button" class="first-ui-btn-danger">Basic&lt;/button>
+                        </div>
+                        <h3>Link Buttons</h3>
+                        <a id="link-btn" href="#" class="first-ui-link-home-btn"> Home</a>    
+                        <a id="link-btn" href="#" class="first-ui-link-submit-btn"> Submit</a>   
+                        <a id="link-btn" href="#" class="first-ui-link-back-btn"> Back</a>   
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;a id="link-btn" href="#" class="first-ui-link-home-btn"> Home&lt;/a>   
+                        </div>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;a id="link-btn" href="#" class="first-ui-link-submit-btn"> Submit&lt;/a>   
+                        </div>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;a id="link-btn" href="#" class="first-ui-link-back-btn"> Back&lt;/a>   
+                        </div>
+                        <h3>Floating Action Button</h3>
+                        <button class="first-ui-view-all-btn"> View All </button>
+                        <button class="first-ui-addtocart-btn"> Add To Cart </button>
+                        <button class="first-ui-buynow-btn"> Buy Now </button>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;button class="first-ui-view-all-btn"> View All &lt;/button>
+                        </div>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;button class="first-ui-addtocart-btn"> Add To Cart &lt;/button>
+                        </div>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;button class="first-ui-buynow-btn"> Buy Now &lt;/button>
+                        </div>
+                        <h3>Icon Buttons</h3>
+                        <a href="#"><i class="fa fa-shopping-cart fa-5x first-ui-cart-btn"></i></a>
+                        <button class="btn"><i class="fa fa-home first-ui-home-btn"></i></button>
+                        <button class="btn"><i class="fa fa-bars first-ui-menu-btn"></i></button>
+                        <button class="btn"><i class="fa fa-trash first-ui-trash-btn"></i></button>
+                        <button class="btn"><i class="fa fa-close first-ui-close-btn" ></i></button>
+                        <button class="btn"><i class="fa fa-folder first-ui-folder-btn"></i></button>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;a href="#">&lt;i class="fa fa-shopping-cart fa-5x first-ui-cart-btn">&lt;/i>&lt;/a>
+                        </div>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;button class="btn">&lt;i class="fa fa-home first-ui-home-btn">&lt;/i>&lt;/button>
+                        </div>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;button class="btn">&lt;i class="fa fa-trash first-ui-trash-btn">&lt;/i>&lt;/button>
+                        </div>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;button class="btn">&lt;i class="fa fa-close first-ui-close-btn">&lt;/i>&lt;/button>
+                        </div>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;button class="btn">&lt;i class="fa fa-folder first-ui-folder-btn">&lt;/i>&lt;/button>
+                        </div>
+                    </div>
+                    <div class="cards section">
+                        <h1 id="cards">Cards</h1>
+                        <h2>Listing Card</h2>
+                        <div class="first-ui-listing-card">
+                            <h3>Heading</h3>
+                            <img class="first-ui-card-img" src="https://cesarkaikarate.com/wp-content/uploads/2017/04/default-image.jpg"></img>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+                        </div>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;div class="first-ui-mix-card"><br>
+                             &lt;h3>Heading&lt;/h3><br>
+                            &lt;img class="first-ui-card-img" src="https://cesarkaikarate.com/wp-content/uploads/2017/04/default-image.jpg">&lt;/img><br>
+                            &lt;p>Lorem ipsum..................&lt;/p><br>
+                            &lt;/div>
+                        </div>
+                        <h2>Basic Text Card</h2>
+                        <div class="first-ui-basic-card">
+                            <h3 class="first-ui-basic-card-title">Card Title</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+                        </div>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;div class="first-ui-basic-card"><br>
+                            &lt;h3 class="first-ui-basic-card-title">Card Title&lt;/h3><br>
+                            &lt;p>Lorem Ipsum........&lt;/p><br>
+                            &lt;/div>
+                        </div>
+                        <h2>Horizontal Card</h2>
+                        <div class="first-ui-horizontal-card">
+                            <div class="first-ui-horizontal-card-left">
+                                <img src=https://cesarkaikarate.com/wp-content/uploads/2017/04/default-image.jpg"></img>
+                            </div>
+                            <div class="first-ui-horizontal-card-right">
+                                <h3 class="first-ui-horizontal-card-title">Card Title</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+                            </div>
+                        </div>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;div class="first-ui-horizontal-card"><br>
+                                &lt;div class="first-ui-horizontal-card-left"><br>
+                                    &lt;img src=https://cesarkaikarate.com/wp-content/uploads/2017/04/default-image.jpg">&lt;/img><br>
+                                    &lt;/div><br>
+                                    &lt;div class="first-ui-horizontal-card-right"><br>
+                                    &lt;h3 class="first-ui-horizontal-card-title">Card Title&lt;/h3><br>
+                                    &lt;p>Lorem Ipsum.......&lt;/p><br>
+                                &lt;/div><br>
+                            &lt;/div>
+                        </div>
+                        <h2>Shadow Card</h2>
+                        <div class="first-ui-shadow-card">
+                            <div class="first-ui-shadow-card-left">
+                                <h3 class="first-ui-shadow-card-title">Shadow Card Title</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;div class="first-ui-shadow-card"><br>
+                            &lt;div class="first-ui-shadow-card-left"><br>
+                            &lt;h3 class="first-ui-shadow-card-title">Shadow Card Title&lt;/h3><br>
+                            &lt;p>Lorem Ipsum........................&lt;/p><br>
+                            &lt;/div><br>
+                            &lt;/div>
+                        </div>
+                    </div>
+                    <div class="first-ui-image">
+                        <h1 id="images">Responsive Image</h1>
+                        
+                            <img  alt="Nature" class="first-ui-responsive-image" src="http://via.placeholder.com/500x500"/>
+                        <h1>Round Image</h1>
+                        <img  alt="Nature" class="first-ui-round-image" src="http://via.placeholder.com/200x200"/>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;img  alt="Nature" class="first-ui-round-image" src="http://via.placeholder.com/200x200"/>
+                        </div>
+                    </div>
+                    <div class="first-ui-input-elements">
+                        <h1 id="input">Input Elements</h1>
+                        
+                        <div class="first-ui-input">
+                            <label>Username *</label>						
+                            <input type="text">
+                        </div>
+                        <div class="first-ui-input error">
+                            <label>Password *</label>						
+                            <input type="text">
+                            <div class="error-message">Password is a required field.</div>
+                        </div>
+                        
+                    </div>
+                    <div class="code-block">
+                        <button class="copy-btn">Copy</button>
+                        &lt;div class="first-ui-input"><br>
+                        &lt;label>Username *&lt;/label><br>						
+                        &lt;input type="text"><br>
+                        &lt;/div>
+                    </div>
+                    <div class="code-block">
+                        <button class="copy-btn">Copy</button>
+                        &lt;div class="first-ui-input error"><br>
+                        &lt;label>Password *&lt;/label><br>						
+                        &lt;input type="text"><br>
+                        &lt;div class="error-message">Password is a required field.&lt;/div><br>
+                        &lt;/div>
+                    </div>
+                    <h1 id="lists">List Elements</h1>
+                    <div>
+                        <h2>Normal List</h2>
+                        <ul class="first-ui-normal-list">
+                            <li>first item</li>
+                            <li>second item</li>
+                            <li>third item</li>
+                            <li>fourth item</li>
+                            <li>fifth item</li>
+                        </ul>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;ul class="first-ui-normal-list"><br>
+                            &lt;li>first item&lt;/li><br>
+                            &lt;li>second item&lt;/li><br>
+                            &lt;li>third item&lt;/li><br>
+                            &lt;li>fourth item&lt;/li><br>
+                            &lt;li>fifth item&lt;/li><br>
+                            &lt;/ul>
+                        </div>
+                    </div>
+                    <div> 
+                        <h2>Stacked List</h2>
+                        <ul class="first-ui-list-group">
+                            <li class="first-ui-list-group-item">Notification one</li>
+                            <li class="first-ui-list-group-item">Notification two</li>
+                            <li class="first-ui-list-group-item">Notification three</li>
+                            <li class="first-ui-list-group-item">Notification four</li>
+                            <li class="first-ui-list-group-item">Notification five</li>
+                          </ul>
+                          <div class="code-block">
+                                <button class="copy-btn">Copy</button>
+                                &lt;ul class="first-ui-list-group"><br>
+                                &lt;li class="first-ui-list-group-item">Notification one&lt;/li><br>
+                                &lt;li class="first-ui-list-group-item">Notification two&lt;/li><br>
+                                    &lt;li class="first-ui-list-group-item">Notification three&lt;/li><br>
+                                    &lt;li class="first-ui-list-group-item">Notification four&lt;/li><br>
+                                    &lt;li class="first-ui-list-group-item">Notification five&lt;/li><br>
+                                &lt;/ul>
+                            </div>
+
+                    </div>
+                    <h1 id="navigation">Navigation</h1>
+                        <div>
+                            <div class="first-ui-nav">
+                                <a href="#home">Home</a>
+                                <a href="#news">News</a>
+                                <a href="#contact">Contact</a>
+                                <a href="#about">About</a>
+                            </div>
+                            <div class="code-block">
+                                    <button class="copy-btn">Copy</button>
+                                    &lt;div class="first-ui-nav"><br>
+                                    &lt;a href="#home">Home&lt;/a><br>
+                                    &lt;a href="#news">News&lt;/a><br>
+                                    &lt;a href="#contact">Contact&lt;/a><br>
+                                    &lt;a href="#about">About&lt;/a><br>
+                                    &lt;/div>
+                            </div>
+                     </div>
+                        <h1 id="modal">Modal</h1>
+                            <div class="first-ui-modal">
+                                <div class="modal-header"><h3>Modal Header</h3></div><hr>
+                                <div class="modal-body"><h5>Modal Body</h5></div><hr>
+                                <div class="modal-footer"><button>Close</button></div>
+                            </div>
+                            <br>
+                            <div class="code-block">
+                                <button class="copy-btn">Copy</button>
+                                &lt;div class="first-ui-modal"><br>
+                                &lt;div class="modal-header">&lt;h3>Modal Header&lt;/h3>&lt;/div>&lt;hr><br>
+                                &lt;div class="modal-body">&lt;h5>Modal Body&lt;/h5>&lt;/div>&lt;hr><br>
+                                &lt;div class="modal-footer">&lt;button>Close&lt;/button>&lt;/div><br>
+                                &lt;/div>
+                            </div>
+                        <h1 id="rating">Ratings</h1>
+                            <div>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div class="code-block">
+                                <button class="copy-btn">Copy</button>
+                                &lt;span class="fa fa-star checked">&lt;/span><br>
+                                &lt;span class="fa fa-star checked">&lt;/span><br>
+                                &lt;span class="fa fa-star checked"><&lt;/span><br>
+                                &lt;span class="fa fa-star">&lt;/span><br>
+                                &lt;span class="fa fa-star">&lt;/span><br>
+                            </div>
+                        <h1 id="grids">Simplified Grid</h1>
+                            <h2>2 - Grid</h2>
+                            <div class="first-ui-two-grid">
+                                <div class="first-ui-two-grid-compenents">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</div>
+                                <div class="first-ui-two-grid-compenents">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</div>
+                            </div>
+                            <div class="code-block">
+                                <button class="copy-btn">Copy</button>
+                                &lt;div class="first-ui-two-grid"><br>
+                                &lt;div class="first-ui-two-grid-compenents">Lorem Ipsum......................&lt;/div><br>
+                                &lt;div class="first-ui-two-grid-compenents">Lorem Ipsum......................&lt;/div><br>
+                                &lt;/div>
+                            </div>
+                            <h2>3 - Grid</h2>
+                            <div class="first-ui-three-grid">
+                                <div class="first-ui-three-grid-compenents">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</div>
+                                <div class="first-ui-three-grid-compenents">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</div>
+                                <div class="first-ui-three-grid-compenents">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</div>
+                            </div>
+                            <div class="code-block">
+                                <button class="copy-btn">Copy</button>
+                                &lt;div class="first-ui-three-grid"><br>
+                                &lt;div class="first-ui-three-grid-compenents">Lorem Ipsum......................&lt;/div><br>
+                                &lt;div class="first-ui-three-grid-compenents">Lorem Ipsum......................&lt;/div><br>
+                                &lt;div class="first-ui-three-grid-compenents">Lorem Ipsum......................&lt;/div><br>
+                                &lt;/div>
+                            </div>
+                        <h1 id="text-utilities">Text Utilities</h1>
+                        <div>
+                            <p class="font-weight-bold">Bold text.</p>
+                            <p class="font-weight-normal">Normal weight text.</p>
+                            <p class="font-weight-light">Light weight text.</p>
+                            <p class="font-italic">Italic text.</p>
+                            <p class="text-left">Left aligned text on all viewport sizes.</p>
+                            <p class="text-center">Center aligned text on all viewport sizes.</p>
+                            <p class="text-right">Right aligned text on all viewport sizes.</p>
+                        </div>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;p class="font-weight-bold">Bold text.&lt;/p><br>
+                            &lt;p class="font-weight-normal">Normal weight text.&lt;/p><br>
+                            &lt;p class="font-weight-light">Light weight text.&lt;/p><br>
+                            &lt;p class="font-italic">Italic text.&lt;/p><br>
+                            &lt;p class="text-left">Left aligned text on all viewport sizes.&lt;/p><br>
+                            &lt;p class="text-center">Center aligned text on all viewport sizes.&lt;/p><br>
+                            &lt;p class="text-right">Right aligned text on all viewport sizes.&lt;/p><br>
+                        </div>
+                        <h1 id="toast">Toast / Snackbar</h1>
+                        <div class="first-ui-snackbar">
+                            <h4>One new notification is arrived...</h4>
+                        </div>
+                        <div class="code-block">
+                            <button class="copy-btn">Copy</button>
+                            &lt;div class="first-ui-snackbar"><br>
+                            &lt;h4>One new notification is arrived...&lt;/h4><br>
+                            &lt;/div>
+                        </div>
+
+                </div> 
+            </div>
+        </div>
+
+</body>
+</html>
